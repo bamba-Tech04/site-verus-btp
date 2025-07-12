@@ -6,7 +6,7 @@ const Team = () => {
     {
       name: "Joefroid Thour",
       position: "Directeur Général",
-      description: "Ingénieur Civil avec plus de 10 ans d'expérience dans le secteur du BTP. Diplômé de l'École Polytechnique ESEBAT.",
+      description: "Ingénieur Civil avec plus de 5 ans d'expérience dans le secteur du BTP. Diplômé de l'École Polytechnique ESEBAT.",
       image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=300",
       specialties: ["Gestion de projet", "Ingénierie civile", "Management"]
     }
