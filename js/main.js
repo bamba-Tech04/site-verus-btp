@@ -13,6 +13,26 @@ let navbar, hamburger, navMenu, navLinks, quoteForm;
 
 // Initialisation sécurisée des éléments DOM
 document.addEventListener('DOMContentLoaded', function() {
+    // Menu burger functionality
+    const hamburger = document.querySelector('.hamburger');
+    const navMenu = document.querySelector('.nav-menu');
+    
+    if (hamburger && navMenu) {
+        hamburger.addEventListener('click', function() {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+        
+        // Fermer le menu quand on clique sur un lien
+        const navLinks = document.querySelectorAll('.nav-menu .nav-link');
+        navLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+    }
+    
     navbar = document.querySelector('.navbar');
     hamburger = document.querySelector('.hamburger');
     navMenu = document.querySelector('.nav-menu');
@@ -329,6 +349,36 @@ const observer = new IntersectionObserver((entries) => {
 
 // Observer les éléments à animer
 document.addEventListener('DOMContentLoaded', function() {
+    // Animation des compteurs
+    function animateCounter(counter) {
+        const target = +counter.getAttribute('data-target');
+        const count = +counter.innerText;
+        const increment = target / 200;
+
+        if (count < target) {
+            counter.innerText = Math.ceil(count + increment);
+            setTimeout(() => animateCounter(counter), 1);
+        } else {
+            counter.innerText = target;
+        }
+    }
+
+    // Observer pour les compteurs
+    const counterObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const counter = entry.target;
+                animateCounter(counter);
+                counterObserver.unobserve(counter);
+            }
+        });
+    });
+
+    // Observer tous les compteurs
+    document.querySelectorAll('.counter').forEach(counter => {
+        counterObserver.observe(counter);
+    });
+    
     document.querySelectorAll('.service-card, .project-card, .team-member, .partner-card, .achievement-card').forEach(el => {
         observer.observe(el);
     });
