@@ -6,8 +6,12 @@ const Home = () => {
   return (
     <div className="pt-16">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-orange-600 text-white">
-        <div className="absolute inset-0 bg-black/20"></div>
+      <section className="relative text-white">
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: "url('/images/realisation.jpeg')" }}
+        ></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-900 via-blue-800 to-orange-600 opacity-80"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
@@ -15,8 +19,8 @@ const Home = () => {
               <span className="text-orange-400">votre avenir</span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto text-blue-100">
-              VERUS BTP, votre partenaire de confiance pour tous vos projets de construction au Sénégal. 
-              De la conception à la réalisation, nous donnons vie à vos projets avec expertise et qualité.
+              VERUS BTP, votre partenaire de confiance pour tous vos projets de construction au Sénégal.
+              De la conception à la réalisation, nous concrétisons vos projets avec expertise et qualité.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
@@ -37,7 +41,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Stats Section */}
+      {/* Section Statistiques */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">

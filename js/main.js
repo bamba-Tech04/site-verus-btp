@@ -829,8 +829,8 @@ const projectsData = {
             'Efficacité énergétique optimisée'
         ],
         images: [
-            'https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&w=600',
-            'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=600'
+            'public/images/realisation2.jpeg?auto=compress&cs=tinysrgb&w=600',
+            'public/images/realisation.jpeg?auto=compress&cs=tinysrgb&w=600'
         ]
     },
     'centre-commercial': {
@@ -852,7 +852,7 @@ const projectsData = {
             'Accessibilité PMR complète'
         ],
         images: [
-            'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=600'
+            'images/realisation3.jpeg?auto=compress&cs=tinysrgb&w=600'
         ]
     },
     'immeuble-bureaux': {
@@ -874,7 +874,7 @@ const projectsData = {
             'Certification environnementale'
         ],
         images: [
-            'https://images.pexels.com/photos/1486222/pexels-photo-1486222.jpeg?auto=compress&cs=tinysrgb&w=600'
+            'images/realisation4.jpeg?auto=compress&cs=tinysrgb&w=600'
         ]
     },
     'villa-contemporaine': {
@@ -896,7 +896,7 @@ const projectsData = {
             'Matériaux haut de gamme'
         ],
         images: [
-            'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=600'
+            'public/images/realisation5.jpeg?auto=compress&cs=tinysrgb&w=600'
         ]
     },
     'complexe-hospitalier': {
@@ -918,7 +918,7 @@ const projectsData = {
             'Espaces de convalescence'
         ],
         images: [
-            'https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=600'
+            'images/realisation6.jpeg?auto=compress&cs=tinysrgb&w=600'
         ]
     },
     'complexe-educatif': {
@@ -940,7 +940,7 @@ const projectsData = {
             'Espaces verts pédagogiques'
         ],
         images: [
-            'https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?auto=compress&cs=tinysrgb&w=600'
+            'public/images/WhatsApp Image 2025-07-11 at 21.20.25.jpeg?auto=compress&cs=tinysrgb&w=600'
         ]
     },
     'hotel-luxe': {
@@ -962,7 +962,7 @@ const projectsData = {
             'Activités nautiques'
         ],
         images: [
-            'https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=600'
+            'public/images/WhatsApp Image 2025-07-11 at 21.20.26 (1).jpeg?auto=compress&cs=tinysrgb&w=600'
         ]
     },
     'logements-sociaux': {
@@ -984,7 +984,7 @@ const projectsData = {
             'Transports en commun'
         ],
         images: [
-            'https://images.pexels.com/photos/1109541/pexels-photo-1109541.jpeg?auto=compress&cs=tinysrgb&w=600'
+            'public/images/WhatsApp Image 2025-07-11 at 21.20.26 (3).jpeg?auto=compress&cs=tinysrgb&w=600'
         ]
     }
 };
@@ -1013,7 +1013,7 @@ const realisationsData = {
             'Terrasses privatives pour chaque logement'
         ],
         images: [
-            'https://images.pexels.com/photos/1109541/pexels-photo-1109541.jpeg?auto=compress&cs=tinysrgb&w=600'
+            'public/images/realisation.jpeg?auto=compress&cs=tinysrgb&w=600'
         ]
     },
     'tour-elegance': {
@@ -1038,7 +1038,7 @@ const realisationsData = {
             'Système de climatisation centralisé'
         ],
         images: [
-            'https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?auto=compress&cs=tinysrgb&w=600'
+            'public/images/realisation2.jpeg?auto=compress&cs=tinysrgb&w=600'
         ]
     },
     'villa-prestige': {
@@ -1063,7 +1063,7 @@ const realisationsData = {
             'Cuisine équipée design italien'
         ],
         images: [
-            'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=600'
+            'public/images/realisation3.jpeg?auto=compress&cs=tinysrgb&w=600'
         ]
     },
     'centre-sea-plaza': {
@@ -1088,7 +1088,7 @@ const realisationsData = {
             'Espaces événementiels modulables'
         ],
         images: [
-            'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=600'
+            'public/images/realisation4.jpeg?auto=compress&cs=tinysrgb&w=600'
         ]
     },
     'complexe-horizon': {
@@ -1113,7 +1113,7 @@ const realisationsData = {
             'Accès contrôlé par badges'
         ],
         images: [
-            'https://images.pexels.com/photos/1486222/pexels-photo-1486222.jpeg?auto=compress&cs=tinysrgb&w=600'
+            'public/images/realisation5.jpeg?auto=compress&cs=tinysrgb&w=600'
         ]
     },
     'cite-nouvelle': {
@@ -1138,7 +1138,7 @@ const realisationsData = {
             'Système d\'assainissement moderne'
         ],
         images: [
-            'https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&w=600'
+            'public/images/realisation6.jpeg?auto=compress&cs=tinysrgb&w=600'
         ]
     },
     'hotel-atlantique': {
@@ -1163,7 +1163,7 @@ const realisationsData = {
             'Jardins tropicaux aménagés'
         ],
         images: [
-            'https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=600'
+            'public/images/WhatsApp Image 2025-07-11 at 21.20.25.jpeg?auto=compress&cs=tinysrgb&w=600'
         ]
     },
     'ecole-moderne': {
@@ -1188,7 +1188,7 @@ const realisationsData = {
             'Infirmerie et espaces administratifs'
         ],
         images: [
-            'https://images.pexels.com/photos/1109541/pexels-photo-1109541.jpeg?auto=compress&cs=tinysrgb&w=600'
+            'public/images/WhatsApp Image 2025-07-11 at 21.20.26 (1).jpeg?auto=compress&cs=tinysrgb&w=600'
         ]
     },
     'clinique-sante-plus': {
@@ -1213,7 +1213,7 @@ const realisationsData = {
             'Héliport pour évacuations d\'urgence'
         ],
         images: [
-            'https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?auto=compress&cs=tinysrgb&w=600'
+            'public/images/WhatsApp Image 2025-07-11 at 21.20.26 (2).jpeg?auto=compress&cs=tinysrgb&w=600'
         ]
     }
 };
